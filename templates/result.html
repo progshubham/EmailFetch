@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- Meta, title, CSS, favicons, etc. -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Reg Data Fetch</title>
+        <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        
+</head>
+
+<body>
+	
+	<center>
+		<a href="\"><button class="btn btn-default" style="box-shadow: 4px 4px 5px #888888;position: fixed;">Check Another</button></a><br>
+		<div class="well" style="margin-top: 18px;">
+		{% if s =="" %}
+			{% extends "extends.html" %}
+		{% endif %}
+
+		  {{ s }}
+		
+		<br><br>
+
+		
+		<!-- <table class="table table-striped table-bordered">
+		<tbody>
+		{% for r in s %}
+			<tr>{{ r }}</tr>
+		{% endfor %}
+		</tbody>
+		</table>
+		<br><br> -->
+		<a href="\"><button class="btn btn-default" style="box-shadow: 4px 4px 5px #888888;">Back</button></a>
+		</div>
+		
+	</center>
+
+
+	<center style="bottom:5px;color:#a9acb2;">
+		<a href="https://www.linkedin.com/in/shubhamkumarrohit/" style="color:#a9acb2;"><i class="fa fa-3x fa-linkedin-square" aria-hidden="true"></i></a>
+		<a href="http://progshubham.github.io/" style="color:#a9acb2;"><i class="fa fa-3x fa-github" aria-hidden="true"></i></a>
+		<a href="https://bitbucket.org/progShubham/" style="color:#a9acb2;"><i class="fa fa-3x fa-bitbucket" aria-hidden="true"></i></a>
+		<a href="https://www.facebook.com/progShubham" style="color:#a9acb2;"><i class="fa fa-3x fa-facebook-official" aria-hidden="true"></i></a>
+		<a href="https://twitter.com/progshubham" style="color:#a9acb2;"><i class="fa fa-3x fa-twitter-square" aria-hidden="true"></i></a>
+		<img src="static\images\image.png" class="img-responsive pull-right" style="height: 220px;width: auto; opacity: 0.3;position: fixed;
+    top: 420px;
+    right: 10px;
+    bottom: 10px;
+    overflow-y: auto;box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;">
+	</center>
+</body>
