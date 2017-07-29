@@ -12,6 +12,6 @@ Just Paste any working url and it will fetch all the emails available moreover w
   
 Thanks.    
 Shubham Kumar Rohit  
-Email: shubh[at]java[dot]com  
+Email: shubh[dot]java[at]gmail[dot]com    
 Mobile: +91 86996 616342  
 --------------------------
