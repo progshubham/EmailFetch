@@ -1,5 +1,6 @@
 # EmailFetch
-Just Paste any working url and it will fetch all the emails available moreover will create a csv file so that you can use it separately. :-)
+Just Paste any working url and it will fetch all the emails available moreover will create a csv file so that you can use it separately. :-)  
+Buit on Flask Micro Framework of Python.
 
 # Index Page:  
 [![Screenshot (29).png](https://s17.postimg.org/s0pneepkv/Screenshot_29.png)](https://postimg.org/image/o4cbif4l7/)
